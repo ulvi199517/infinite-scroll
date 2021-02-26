@@ -37,11 +37,9 @@ class App extends React.Component {
     } catch(error) {
       console.log(error);
     }
-    console.log('totalImages',this.state.totalImages);
   }
   imageLoaded = () => {
     this.setState({imagesLoaded: this.state.imagesLoaded + 1}, () => {
-      console.log('imagesLoaded',this.state.imagesLoaded);
       if(this.state.imagesLoaded === this.state.totalImages){
         this.setState({ready: true, isLoading: false});
       }

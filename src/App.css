@@ -25,13 +25,13 @@ hr {
   margin: -5px 10%;
 }
 .loader-container {
-  position: flex;
+  margin-top: 10%;
+  width: 100vw;
+  display: flex;
   justify-content: center;
-  align-content: center;
 }
-.loader  img {
-  position: flex;
-  transform: translate(-50%,-50%);
+.loader{
+  width: 20%;
 }
 .image-container {
   cursor: pointer;
